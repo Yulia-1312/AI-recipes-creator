@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI-Recipe-Creator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI-Recipe-Creator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the product,that you would like to use"
@@ -24,7 +25,7 @@
           <input type="submit" value="Submit" class="submit-button" />
         </form>
         <div id="answer">
-          <div class="ingredients">
+          <div class="ingredients" id="ingredients">
             2 pounds carrots (15 to 20 small to medium) 1 small yellow onion 3
             cloves garlic 2 to 4 sprigs fresh dill 1 medium lemon 3 tablespoons
             unsalted butter 1 1/2 teaspoons kosher salt 1/4 teaspoon freshly
