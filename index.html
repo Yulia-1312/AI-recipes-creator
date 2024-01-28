@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI-Recipe-Creator</title>
   </head>
@@ -13,7 +14,7 @@
         <h1>AI-Recipe-Creator</h1>
       </header>
       <main>
-        <form id="poem-generator-form">
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter the product,that you would like to use"
@@ -21,42 +22,15 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instruction"
           />
           <input type="submit" value="Submit" class="submit-button" />
         </form>
         <div id="answer">
           <div class="ingredients" id="ingredients">
-            2 pounds carrots (15 to 20 small to medium) 1 small yellow onion 3
-            cloves garlic 2 to 4 sprigs fresh dill 1 medium lemon 3 tablespoons
-            unsalted butter 1 1/2 teaspoons kosher salt 1/4 teaspoon freshly
-            ground black pepper, plus more for serving 1 (32-ounce) carton
-            low-sodium vegetable or chicken broth (4 cups) 1/2 cup heavy cream
-            (optional)
-          </div>
-          <div class="recipe">
-            INSTRUCTIONS: Prepare the following, placing each in the same large
-            bowl as you complete it: Peel, trim, and thinly slice 2 pounds
-            carrots (about 5 cups). Dice 1 small yellow onion (about 1 cup).
-            Mince 3 garlic cloves. Finely chop 2 to 4 fresh dill sprigs until
-            you have 1 tablespoon, plus more for garnish if desired. Juice 1
-            medium lemon until you have 2 tablespoons. Melt 3 tablespoons
-            unsalted butter in a Dutch oven over medium-high heat until melted.
-            Add the carrot mixture, 1 1/2 teaspoons kosher salt, and 1/4
-            teaspoon black pepper. Cook, stirring occasionally, until the
-            vegetables are crisp-tender and the liquid released from the
-            vegetables is mostly evaporated, about 10 minutes. Add the garlic
-            and dill. Cook, stirring often until fragrant, about 1 minute. Add 1
-            (32-ounce) carton low-sodium vegetable or chicken broth. Cover and
-            bring to a boil. Reduce the heat to low. Simmer covered, stirring
-            occasionally, until the carrots are tender, 10 to 12 minutes. Remove
-            from the heat, uncover, and let cool slightly, about 10 minutes.
-            Working in batches, carefully transfer the soup to a blender and
-            blend until completely smooth. (Alternatively, blend directly in the
-            pot with an immersion blender, though the soup will not be as
-            smooth.) Transfer back to the pot, add the lemon juice, and stir to
-            combine. Reheat over medium heat if desired. Stir in 1/2 cup heavy
-            cream if desired. Ladle the soup into bowls. Garnish with more fresh
-            dill and black pepper.
+            Here you will see a perfect recipe for you and your beloved ones❤️.
+            Don't waste the products, just find a perfect solution with our AI
+            to use a product, that you have left at home.
           </div>
         </div>
       </main>
