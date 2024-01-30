@@ -64,5 +64,7 @@ form {
   border-left: 3px solid green;
 }
 footer {
+  margin-top: 20px;
   text-align: center;
+  opacity: 0.6;
 }
